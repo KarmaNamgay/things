@@ -1,0 +1,29 @@
+body{
+    background-color: #A8DF8E;
+}
+h1{
+    background-color:#F3FDE8;
+    color:#FFBFBF;
+}
+#show_sketch{
+    float:right;
+    box-shadow:20px 15px 20px 7px #FFE5E5;
+    background-color: #F3FDE8;
+    color: #FFBFBF;
+}
+canvas{
+    border:10px ridge #FFBFBF;
+    background-color: #F3FDE8;
+    animation-name:border_go_wow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+@keyframes border_go_wow {
+    from{box-shadow: 15px 15px 20px 7px #FFBFBF;}
+    to{box-shadow: 15px 15px 20px 7px rgb(74, 174, 74);}
+}
